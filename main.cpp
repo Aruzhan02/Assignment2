@@ -27,7 +27,7 @@
                 v_person[0] = v_person[i];
             }
         }
-        cout << "The Luckiest person is " << v_person[0].getName() << " and " << v_person[0].getName()<<"'s luck is " << v_person[0].getLuck() << endl;
+        cout << "The Luckiest person is " << v_person[0].getName() << " and " << v_person[0].getName()<<"'s luck is " << v_person[0].getLuck() << "." << endl;
 
         return 0;
     }
