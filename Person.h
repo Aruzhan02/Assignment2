@@ -1,31 +1,31 @@
-#ifndef ASSIGNMENT2_PERSON_H
-#define ASSIGNMENT2_PERSON_H
-#include <string>
-using namespace std;
+    #ifndef ASSIGNMENT2_PERSON_H
+    #define ASSIGNMENT2_PERSON_H
+    #include <string>
+    using namespace std;
 
-    class Person {
-public:
-    Person(const string &name, int age, int luck);
+        class Person {
+    public:
+        Person(const string &name, int age, int luck);
 
-    Person();
+        Person();
 
-    const string &getName() const;
+        const string &getName() const;
 
-    void setName(const string &name);
+        void setName(const string &name);
 
-    int getAge() const;
+        int getAge() const;
 
-    void setAge(int age);
+        void setAge(int age);
 
-    int getLuck() const;
+        int getLuck() const;
 
-    void setLuck(int luck);
+        void setLuck(int luck);
 
-private:
-    string name;
-    int age;
-    int luck;
-};
+    private:
+        string name;
+        int age;
+        int luck;
+    };
 
 
-#endif //ASSIGNMENT2_PERSON_H
+    #endif //ASSIGNMENT2_PERSON_H

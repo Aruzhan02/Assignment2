@@ -2,11 +2,15 @@
 #include <iostream>
 
 Person::Person(const string &name, int age, int luck) : name(name), age(age), luck(luck) {
-
+    this->name = name;
+    this->age = age;
+    this->luck = luck;
 }
 
 Person::Person() {
-
+    this->name = "None";
+    this->age = 0;
+    this->luck = 0;
 }
 
 const string &Person::getName() const {
